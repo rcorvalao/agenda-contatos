@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "br.com.corvs.agenda",
+      "nativeLanguage": "pt-br"
+    },
+    "jhipsterVersion": "4.5.6",
+    "baseName": "agenda",
+    "packageName": "br.com.corvs.agenda",
+    "packageFolder": "br/com/corvs/agenda",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "4d8cf900d512a51a1906cd02c9b1cc7f06e08daa",
+    "clientFramework": "angular1",
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "pt-br",
+    "languages": [
+      "pt-br",
+      "en",
+      "fr",
+      "de",
+      "it",
+      "pt-pt"
+    ]
+  }
+}

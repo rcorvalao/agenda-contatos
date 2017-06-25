@@ -1,0 +1,14 @@
+version: '2'
+services:
+    agenda-app:
+        image: agenda
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:postgresql://agenda-postgresql:5432/agenda
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+        ports:
+            - 8080:8080
+    agenda-postgresql:
+        extends:
+            file: postgresql.yml
+            service: agenda-postgresql
